@@ -2,6 +2,11 @@
 
 This is a boilerplate project used for starting new projects!
 
+## Pre settup
+1. install heroku - https://devcenter.heroku.com/articles/heroku-cli '$ heroku login'
+$ npm init -y
+$ npm install express morgan
+$ npm install mocha chai supertest nodemon -D
 ## Set up
 
 Complete the following steps to start a new project (NEW-PROJECT-NAME):
