@@ -1,8 +1,10 @@
 # Express Boilerplate!
 
 This is a boilerplate project used for starting new projects!
+## Pre settup dependencies
+npm i express morgan cors dotenv helmet
 
-## Pre settup
+## Pre settup devDependencies
 1. install heroku - https://devcenter.heroku.com/articles/heroku-cli '$ heroku login'
 $ npm init -y
 $ npm install express morgan
