@@ -1,0 +1,125 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica,sans-serif;
+    line-height: 1;
+    margin: 0;
+    color: #212529;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+nav, header{
+   text-align: center;
+}
+
+nav{
+    background-color: rgb(228, 228, 228);
+}
+
+.home-page h1{
+    margin: 0;
+    font-size: 40px;
+    color: rgba(21, 116, 179, 0.815);
+}
+h2{
+    padding-top: 30px;
+}
+
+h3{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+h4{
+    font-size:25px;
+    margin: 5px;
+    padding-top: 50px;
+}
+ul{ 
+    list-style-type: none; 
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 16px 0;
+    padding-right: 24px;
+}
+
+button {
+    border: none;
+    color: #002b36;   
+    min-width: 30px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+button:hover {
+    background: #c3cce2;
+}
+
+.rejected{
+    color: red;
+    font-weight: bold;
+}
+.passed{
+    color: rgb(49, 196, 29);
+    font-weight: bold;
+}
+.pending{
+    color: blue;
+    font-weight: bold;
+}
+
+.asin-number{
+    font-weight: bold;
+}
+.add-asin{
+    margin-bottom: 30px;
+}
+.asin-list{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px 10px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.loading{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+/*where the new code begins*/
+
+input{
+    font-size: 16px;
+}
+  
+  .done {
+    text-decoration: line-through;
+  }
+
+  .close{
+    background: #dd7042;
+  }
+  .close:hover{
+    background: #c54b17;
+  }
+
+  .asin {
+      text-align: left;
+  }
+  
+  
+  @media screen and (max-width:885px){
+    .asin-list{
+        width: 70%;
+    }
+}
